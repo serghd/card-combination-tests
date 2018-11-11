@@ -1,5 +1,4 @@
-#ifndef HOLDEM_H
-#define	HOLDEM_H
+#pragma once
 
 #include "common.h"
 
@@ -9,6 +8,3 @@ ns_api::ns_table::cards_combination_t get_best_combination(const ns_api::ns_tabl
 
 
 } // namespace Holdem
-
-#endif	/* HOLDEM_H */
-

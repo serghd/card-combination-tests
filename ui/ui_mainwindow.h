@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.2
+** Created by: Qt User Interface Compiler version 5.11.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,11 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QRadioButton>
@@ -154,17 +152,17 @@ public:
 
     void retranslateUi(QDialog *MainWindowUi)
     {
-        MainWindowUi->setWindowTitle(QApplication::translate("MainWindowUi", "Combinations", Q_NULLPTR));
-        gbTableCards->setTitle(QApplication::translate("MainWindowUi", "Table cards", Q_NULLPTR));
-        gbPlayerCards->setTitle(QApplication::translate("MainWindowUi", "Player cards", Q_NULLPTR));
-        gbGameTypes->setTitle(QApplication::translate("MainWindowUi", "Game types", Q_NULLPTR));
-        rbTexasHoldem->setText(QApplication::translate("MainWindowUi", "Texas Holdem", Q_NULLPTR));
-        rbOmaha->setText(QApplication::translate("MainWindowUi", "Omaha", Q_NULLPTR));
-        gbActions->setTitle(QApplication::translate("MainWindowUi", "Actions", Q_NULLPTR));
-        btnApply->setText(QApplication::translate("MainWindowUi", "apply", Q_NULLPTR));
-        btnCancel->setText(QApplication::translate("MainWindowUi", "cancel", Q_NULLPTR));
-        btnLog->setText(QApplication::translate("MainWindowUi", "in log", Q_NULLPTR));
-        lblCardsCombination->setText(QApplication::translate("MainWindowUi", "-", Q_NULLPTR));
+        MainWindowUi->setWindowTitle(QApplication::translate("MainWindowUi", "Combinations", nullptr));
+        gbTableCards->setTitle(QApplication::translate("MainWindowUi", "Table cards", nullptr));
+        gbPlayerCards->setTitle(QApplication::translate("MainWindowUi", "Player cards", nullptr));
+        gbGameTypes->setTitle(QApplication::translate("MainWindowUi", "Game types", nullptr));
+        rbTexasHoldem->setText(QApplication::translate("MainWindowUi", "Texas Holdem", nullptr));
+        rbOmaha->setText(QApplication::translate("MainWindowUi", "Omaha", nullptr));
+        gbActions->setTitle(QApplication::translate("MainWindowUi", "Actions", nullptr));
+        btnApply->setText(QApplication::translate("MainWindowUi", "apply", nullptr));
+        btnCancel->setText(QApplication::translate("MainWindowUi", "cancel", nullptr));
+        btnLog->setText(QApplication::translate("MainWindowUi", "in log", nullptr));
+        lblCardsCombination->setText(QApplication::translate("MainWindowUi", "-", nullptr));
     } // retranslateUi
 
 };

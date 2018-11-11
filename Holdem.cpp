@@ -13,11 +13,16 @@ namespace Holdem {
   auto it = std::copy(table_cards.begin(), table_cards.end(), all_cards.begin());
   std::copy(player_cards.begin(), player_cards.end(), it);
 
-  for(size_t idx1 = 0; idx1 < all_cards.size(); ++idx1) {
-      for(size_t idx2 = idx1 + 1; idx2 < all_cards.size(); ++idx2) {
-          for(size_t idx3 = idx2 + 1;	idx3 < all_cards.size(); ++idx3) {
-              for(size_t idx4 = idx3 + 1; idx4 < all_cards.size(); ++idx4) {
-                  for(size_t idx5 = idx4 + 1; idx5 < all_cards.size(); ++idx5) {
+  for(size_t idx1 = 0; idx1 < all_cards.size(); ++idx1)
+  {
+      for(size_t idx2 = idx1 + 1; idx2 < all_cards.size(); ++idx2)
+      {
+          for(size_t idx3 = idx2 + 1;	idx3 < all_cards.size(); ++idx3)
+          {
+              for(size_t idx4 = idx3 + 1; idx4 < all_cards.size(); ++idx4)
+              {
+                  for(size_t idx5 = idx4 + 1; idx5 < all_cards.size(); ++idx5)
+                  {
                       tmp_hand[0] = all_cards.at(idx1);
                       tmp_hand[1] = all_cards.at(idx2);
                       tmp_hand[2] = all_cards.at(idx3);
